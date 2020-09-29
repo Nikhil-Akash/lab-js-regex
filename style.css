@@ -7,23 +7,51 @@ div {
    
 form {                                         
     margin: 0 auto; 
-    width: 600px;
+    margin-top: 20px;
+    width: 1200px;
     text-align: center;
-    border: 1px Solid black;
-    background-color: aliceblue;
+    background-color: rgb(198, 204, 209);
 }
 
 form>p{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    
+}
 
+label{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 150px;
 }
 input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: 300px;
-    margin-left: 2%;
+    margin-left: 10%;
     float: inline-end;
 }
 .alert{
     color: red;
 }
+.alert1{
+    color:green;
+}
+
+#chechbtn{
+    background-color: orangered;
+    color:white;
+    width:80px;
+  
+}
+
+.namepos{
+    padding-top: 50px;
+}
+
